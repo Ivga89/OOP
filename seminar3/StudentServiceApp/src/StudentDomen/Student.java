@@ -1,6 +1,6 @@
 package StudentDomen;
 
-public class Student extends User implements Comparable<Student> {
+public class Student extends Person implements Comparable<Student> {
     private long studentID;
 
     /**

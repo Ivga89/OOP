@@ -1,6 +1,6 @@
 package StudentDomen;
 
-public class User {
+public class Person {
     private String firstName;
     private String secondName;
     private int age;
@@ -11,7 +11,7 @@ public class User {
      * @param secondName second name of user
      * @param age age of user
      */
-    public User(String firstName, String secondName, int age) {
+    public Person(String firstName, String secondName, int age) {
         this.firstName = firstName;
         this.secondName = secondName;
         this.age = age;

@@ -3,11 +3,11 @@ package StudentDomen;
 import java.util.Iterator;
 import java.util.List;
 
-public class StudentGroupIterator implements Iterator<Student> {
+public class SGIterator implements Iterator<Student> {
     private int counter;
     private final List<Student> students;
 
-    public StudentGroupIterator(List<Student> students) {
+    public SGIterator(List<Student> students) {
         this.students = students;
         this.counter = 0;
     }

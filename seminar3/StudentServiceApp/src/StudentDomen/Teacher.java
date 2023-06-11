@@ -1,6 +1,6 @@
 package StudentDomen;
 
-public class Teacher extends User {
+public class Teacher extends Person {
     private int teacherID;
 
     /**
@@ -25,9 +25,9 @@ public class Teacher extends User {
     
     @Override
     public String toString() {
-        return "Second name " + super.getSecondName() +
-               ", First name " + super.getFirstName() +
-               ", age " + super.getAge() +
-               ", techer id " + teacherID;
+        return "Second name: " + super.getSecondName() +
+               ",\tFirst name: " + super.getFirstName() +
+               "\tage: " + super.getAge() +
+               "\ttecher id: " + teacherID;
     }
 }
